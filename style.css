@@ -1,0 +1,77 @@
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url("http://www.csszengarden.com/214/huntington.jpg");
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+header {
+   
+    font-size: 30px;
+    text-align: left;
+    grid-column: 1 / 4;
+    height: 150px;
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 50px;
+    padding-left: 285px;
+    padding-top: 150px;
+    text-transform: uppercase;
+    
+}
+.under {
+    font: italic 1.2em "Fira Sans", serif;
+    text-align: left;
+    display: block;
+    font-size: 30px;
+    opacity: 0.6;
+    padding: 5px;
+    text-transform: capitalize;
+    
+}
+
+.button {
+    grid-column: 5 / 6; 
+    background-color: rgba(231, 231, 231, 0.25);
+    padding: 5px;
+    margin-top: 150px;
+    text-align: center;
+    height: 55px;
+    width: 250px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Julius Sans One', sans-serif;
+    opacity: 0.6;
+}
+
+#about {
+    grid-column: 1 / 5;
+    background-color: white;
+    text-align: center;
+    color: #2e484c;
+    font-family: 'Libre Baskerville', sans-serif;
+    grid-row: 2/ 4;
+    display: block;
+    
+
+
+}
+
+
+
+
+footer {
+    font-size: 20px;
+    background-color: darkslateblue;
+    text-align: center;
+    grid-column: 1 / 7;
+    grid-row: 6/6;
+}
